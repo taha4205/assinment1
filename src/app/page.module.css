@@ -1,0 +1,115 @@
+
+
+.navbar {
+  background-color: #333; /* Dark background for navbar */
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  color: white; /* White text color */
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.logo {
+  color: white; /* White text color */
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.hero {
+  
+  text-align: center;
+  height: 550px;
+  width: 100%;
+  text-align: center;
+  padding-right: 90px;
+  padding-left:90px ;
+  
+}
+.hero div{
+  float: left;
+  width: 50%;
+}
+.hero h1 {
+  color: #333; /* Dark text color */
+  font-size: 2.5em;
+  padding-top: 100px;
+  text-align: left;
+  
+}
+.aboutUs, .services, .contact {
+  padding: 50px;
+  text-align: center;
+}
+
+.aboutUs h2, .services h2, .contact h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.aboutUs p, .services p, .contact p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.aboutUs button, .services button, .contact button {
+  background-color:  #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+.hero p {
+  color: #666; /* Gray text color */
+  font-size: 1.2em;
+  text-align: left;
+}
+.hero button {
+  margin-left: -200px;
+  margin-top:  100px;
+  border-radius: 50px;
+  background-color: rgb(46, 46, 46); /* Dark background color */
+  color: white; /* White text color */
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.footer {
+  background-color: #333; /* Dark background for footer */
+  color: white; /* White text color */
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.imageStyle{
+  float: right;
+}
